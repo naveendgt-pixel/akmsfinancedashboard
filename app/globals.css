@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --bg: #f6f2ec;
+  --card: #ffffff;
+  --ink: #1b1b1b;
+  --muted: #6f6a64;
+  --accent: #0f766e;
+  --accent-2: #c2410c;
+  --line: #e7e1d8;
+}
+
+:root[data-theme="aura"] {
+  color-scheme: light;
+  --bg: #f6f2ec;
+  --card: #ffffff;
+  --ink: #1b1b1b;
+  --muted: #6f6a64;
+  --accent: #0f766e;
+  --accent-2: #c2410c;
+  --line: #e7e1d8;
+}
+
+:root[data-theme="midnight"] {
+  color-scheme: dark;
+  --bg: #0c0f14;
+  --card: #151a23;
+  --ink: #f2f4f8;
+  --muted: #9aa3b2;
+  --accent: #60a5fa;
+  --accent-2: #f59e0b;
+  --line: #222938;
+}
+
+:root[data-theme="forest"] {
+  color-scheme: light;
+  --bg: #eef4ef;
+  --card: #ffffff;
+  --ink: #142319;
+  --muted: #5a6b5f;
+  --accent: #15803d;
+  --accent-2: #84cc16;
+  --line: #d7e4d8;
+}
+
+:root[data-theme="sand"] {
+  color-scheme: light;
+  --bg: #fbf6ee;
+  --card: #ffffff;
+  --ink: #2b2216;
+  --muted: #7a6a55;
+  --accent: #b45309;
+  --accent-2: #0ea5e9;
+  --line: #eadfce;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+}
